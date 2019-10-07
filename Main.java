@@ -1,4 +1,4 @@
-public class Rectangle {
+ class Rectangle {
     private int length;
     private int width;
     private static int count = 0;
@@ -56,7 +56,7 @@ public class Rectangle {
 }
 
 
- public class Circle {
+ class Circle {
     private double radius;
     private static int count;
 
