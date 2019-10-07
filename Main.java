@@ -71,7 +71,7 @@
 
     private void setRadius(double radius) {
         if(radius > 0){
-            radius = radius;
+            this.radius = radius;
         }else{
             throw new IllegalArgumentException("Radius can't be less than zero");
         }
