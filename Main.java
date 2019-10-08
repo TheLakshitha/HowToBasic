@@ -105,9 +105,9 @@ public class Main {
         System.out.printf("The radius of the circle is %.2f, the area is %.2f and the Circumference is %.2f. This are %s circle objects\n",
                 obj2.getRadius(), obj2.getArea(), obj2.getCircumference(), Circle.getCount());
 
-        Circle obj = new Circle(30);
+        Circle obj3 = new Circle(30);
         System.out.printf("The radius of the circle is %.2f, the area is %.2f and the Circumference is %.2f. This are %s circle objects\n",
-                obj.getRadius(), obj.getArea(), obj.getCircumference(), Circle.getCount());
+                obj3.getRadius(), obj3.getArea(), obj3.getCircumference(), Circle.getCount());
 
         Rectangle rect1 = new Rectangle(10, 20);
         System.out.printf("Rectangle Number %s, Length %s, Width %s, Area, %.2f, Perimeter %.2f\n",
